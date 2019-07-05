@@ -1,0 +1,299 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {		
+	
+	/*header start*/
+.logo{
+	width:130px;
+}
+
+.menu ul li a{
+	font-size: 16px;	
+	text-align: right;	
+}
+	
+.menu ul li a:hover{	
+	background-color: #ffd338;
+}
+/*header end*/
+
+/*user start*/
+.user{
+	float: right;
+}
+
+.user_menu {
+    left: 47px;
+    min-width: 13rem;
+    top:38px;
+}
+/*user end*/
+
+
+/*search start*/
+.search{
+	float: right;
+}
+
+.search_menu {
+    left: -10px;
+    min-width: 6rem;
+    top: 38px;
+}
+
+.search_button{
+	font-weight: 300;
+    margin-left: 5px;
+}
+/*search end*/
+
+/*banner start*/
+.b_content {
+    margin-top: 40px;
+    margin-bottom: 68px;
+}
+
+.b_content h1 {
+    font-size: 14pt;
+}
+
+.b_scroll p{
+	font-size: 14px
+}
+
+/*banner end*/
+
+/*education start*/
+
+.c_title {
+    padding: 15px 0;
+}
+
+.c_title h1{
+	font-size: 20px;
+}
+.c_title hr {
+    width: 235px;
+}
+
+.edu_cont h1 {
+    font-size: 20px;
+}
+
+.edu_cont hr {
+    width: 80px;
+}
+
+
+.btn_img{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right:180px;
+}
+
+/*education end*/
+
+
+/*kid education start*/
+/*kid_edu start*/
+
+.kid_edu {
+    margin-top: 45px;
+}
+
+ .kid_edu_cont p{
+	font-weight: 200;
+	font-size: 16px;
+}
+/*kid_edu end*/
+
+/*kid education end*/
+
+/*course_offer start*/
+.course_offer img{
+	width: 100px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+/*course_offer end*/
+
+}
+
+/*memorable start*/
+
+.memorable{	
+	margin-top: 35px;	
+}
+
+.view_img img{
+	margin-top: 10px;
+    width: 150px;
+}
+/*memorable end*/
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+		
+/*header start*/
+.logo{
+	width:140px;
+}
+
+.menu ul li a{
+	font-size: 16px;	
+	text-align: right;	
+}
+	
+.menu ul li a:hover{	
+	background-color: #ffd338;
+}
+/*header end*/
+
+/*education start*/
+.btn_img{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right:320px;
+}
+/*education end*/
+
+/*kid education start*/
+/*kid_edu start*/
+
+.kid_edu_cont p{
+	font-weight: 200;
+}
+/*kid_edu end*/
+
+/*kid education end*/
+
+/*course_offer start*/
+.course_offer img{
+	width: 190px;
+    margin-bottom: 20px;
+}
+/*course_offer end*/
+/*memorable start*/
+
+.view_img img{
+	margin-top: 25px;
+    
+}
+/*memorable end*/
+}
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+/*header start*/
+
+.logo{
+	width:150px;
+}
+
+
+.menu ul li a {
+	text-align: right;	
+	font-size: 18px;		
+}
+	
+.menu ul li a:hover{	
+	background-color: #ffd338;
+}
+/*header end*/
+
+/*user start*/
+.user{
+	float: right;
+}
+.user_menu {
+    left: 335px;
+    min-width: 20rem;
+    top: 38px;
+}
+/*user end*/
+
+/*search start*/
+.search{
+	float: right;
+}
+.search_menu {
+    left: 277px;
+    min-width: 20rem; 
+    top: 38px;
+}
+/*search end*/
+
+/*banner start*/
+.b_content {
+    margin-top: 51px;
+    margin-bottom: 216px;
+}
+/*banner end*/
+
+/*education start*/
+
+.btn_img{
+	margin-right: 145px;
+}
+
+.edu_img{
+	margin-top: 35px;
+}
+
+/*education end*/
+
+/*kid education start*/
+
+.kid_edu_cont p{
+	font-weight: 200;
+}
+/*kid_edu end*/
+
+/*kid education end*/
+
+/*course_offer start*/
+.course_offer img{
+	width:155px;
+}
+/*course_offer end*/
+
+/*memorable start*/
+
+.view_img img{
+	margin-top: 40px;
+}
+
+/*memorable end*/
+
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+/*banner start*/
+.b_content {
+    margin-top: 91px;
+    margin-bottom: 290px;
+
+}
+/*banner end*/
+
+	 
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	/*bannner start*/
+	.b_content {
+    margin-top: 320px;
+    margin-bottom: 300px;
+}
+}
+	/*bannner end*/
+	 
+}

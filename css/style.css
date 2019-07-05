@@ -1,0 +1,196 @@
+/*font-family: 'Dosis', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+
+body{
+	background-image: url(../images/bg_body.png);
+	
+}
+
+/*header start*/
+header{
+	font-family: 'Dosis', sans-serif;
+	background-color: #ffd338;
+}
+
+.menu ul li a{
+	font-weight: 700;
+	font-size: 18px;
+	color: white !important;;
+	text-align: center;
+	padding: 5px 20px !important;
+	border-radius: 20px;
+	transition: .5s;
+}
+
+.menu ul li a:hover{
+	background-color: #f05c5c;
+
+}
+
+/*user start*/
+.user{
+	color: white;
+	margin-right: 5px;
+}
+
+.user:focus{
+	   box-shadow: 0 0 0 0.2rem rgba(255, 0, 177, 0.25);
+	}     
+
+.user_menu{
+	left:-263px;
+	min-width: 20rem;
+}
+/*user end*/
+
+/*search start*/
+.search{
+	color: white;
+}
+
+.search:focus{
+	   box-shadow: 0 0 0 0.2rem rgba(255, 0, 177, 0.25);
+	}     
+
+.search_menu{
+	left:-263px;
+	min-width: 20rem;
+}
+
+.search_input{
+	padding: 0 50px;
+	margin-left:5px;
+    margin-right: 5px;
+}
+
+
+.search_button{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	transition: .5s;
+	margin-right: 3px;
+}
+
+.search_button:hover{
+	background-color: #f05c5c;
+
+}
+/*search end*/
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/Composed-layer@1X.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.b_content{
+	margin-top: 100px;
+    margin-bottom: 325px;
+
+}
+.b_content h1{
+	font-family: ﻿'Dosis', sans-serif;
+	font-weight: 700;
+	font-size: 25pt;
+	color: rgba(30, 192, 255, 255);
+	text-align: center ; 
+
+}
+
+.b_scroll{
+	font-size: 12pt;
+	color: rgba(187, 187, 187, 255)
+}
+
+/*banner end*/
+
+/*education start*/
+
+/*c_title start*/
+.c_title{
+	padding:30px 0;
+}
+.c_title h1{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+.c_title hr{
+	width: 300px;
+    border: 2px dashed white;
+}
+/*c_title end*/
+
+/*edu_cont start*/
+
+
+.edu_cont{
+
+}
+.edu_cont h1{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+}
+.edu_cont hr{
+	width: 110px;
+    margin-left: 0px;
+    border: 2px dashed white;
+}
+.edu_cont p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+}
+/*edu_cont end*/
+
+
+/*education end*/
+
+/*kid education start*/
+/*kid_edu start*/
+
+.kid_edu{
+	background-image: url(../images/kid_education.png);
+	margin-top: 65px;
+	margin-bottom: 35px;
+}
+
+.kid_edu_cont p{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 255);
+}
+/*kid_edu end*/
+
+/*kid education end*/
+
+/*course_offer start*/
+.course_offer img{
+	width:210px;
+	margin-bottom: 35px;
+}
+/*course_offer end*/
+
+/*memorable start*/
+
+.memorable{
+	background-image: url(../images/memory_img.png);
+	margin-top: 65px;
+	padding-bottom: 50px;
+}
+
+.memo_img img{
+	margin-bottom: 20px;
+}
+
+.view_img img{
+	margin-top: 75px;
+}
+
+
+/*memorable end*/
